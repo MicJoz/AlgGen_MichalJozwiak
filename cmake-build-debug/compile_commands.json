@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/AlgGen.dir/main.cpp.o -c /Users/mjozwiak/Desktop/POIO/AlgGen/main.cpp",
+  "file": "/Users/mjozwiak/Desktop/POIO/AlgGen/main.cpp",
+  "output": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug/CMakeFiles/AlgGen.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/AlgGen.dir/TParam.cpp.o -c /Users/mjozwiak/Desktop/POIO/AlgGen/TParam.cpp",
+  "file": "/Users/mjozwiak/Desktop/POIO/AlgGen/TParam.cpp",
+  "output": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug/CMakeFiles/AlgGen.dir/TParam.cpp.o"
+},
+{
+  "directory": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/AlgGen.dir/TCandidate.cpp.o -c /Users/mjozwiak/Desktop/POIO/AlgGen/TCandidate.cpp",
+  "file": "/Users/mjozwiak/Desktop/POIO/AlgGen/TCandidate.cpp",
+  "output": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug/CMakeFiles/AlgGen.dir/TCandidate.cpp.o"
+},
+{
+  "directory": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/AlgGen.dir/TPopulation.cpp.o -c /Users/mjozwiak/Desktop/POIO/AlgGen/TPopulation.cpp",
+  "file": "/Users/mjozwiak/Desktop/POIO/AlgGen/TPopulation.cpp",
+  "output": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug/CMakeFiles/AlgGen.dir/TPopulation.cpp.o"
+},
+{
+  "directory": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/AlgGen.dir/TKlasa.cpp.o -c /Users/mjozwiak/Desktop/POIO/AlgGen/TKlasa.cpp",
+  "file": "/Users/mjozwiak/Desktop/POIO/AlgGen/TKlasa.cpp",
+  "output": "/Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug/CMakeFiles/AlgGen.dir/TKlasa.cpp.o"
+}
+]

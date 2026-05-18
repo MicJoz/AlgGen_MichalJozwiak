@@ -7,4 +7,8 @@ add_executable(AlgGen main.cpp
         TParam.cpp
         TParam.h
         TCandidate.h
-        TCandidate.cpp)
+        TCandidate.cpp
+        TPopulation.h
+        TPopulation.cpp
+        TKlasa.cpp
+        TKlasa.h)
