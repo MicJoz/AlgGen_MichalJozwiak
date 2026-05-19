@@ -3,7 +3,7 @@ project(AlgGen)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(AlgGen main.cpp
+add_executable(AlgGen
         TParam.cpp
         TParam.h
         TCandidate.h
@@ -11,4 +11,7 @@ add_executable(AlgGen main.cpp
         TPopulation.h
         TPopulation.cpp
         TKlasa.cpp
-        TKlasa.h)
+        TKlasa.h
+        main.cpp
+        TAlgorithm.h
+        TAlgorithm.cpp)

@@ -49,13 +49,6 @@ cmake_ninja_workdir = /Users/mjozwiak/Desktop/POIO/AlgGen/cmake-build-debug/
 
 build cmake_object_order_depends_target_AlgGen: phony || .
 
-build CMakeFiles/AlgGen.dir/main.cpp.o: CXX_COMPILER__AlgGen_unscanned_Debug /Users/mjozwiak/Desktop/POIO/AlgGen/main.cpp || cmake_object_order_depends_target_AlgGen
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles/AlgGen.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/AlgGen.dir
-  OBJECT_FILE_DIR = CMakeFiles/AlgGen.dir
-
 build CMakeFiles/AlgGen.dir/TParam.cpp.o: CXX_COMPILER__AlgGen_unscanned_Debug /Users/mjozwiak/Desktop/POIO/AlgGen/TParam.cpp || cmake_object_order_depends_target_AlgGen
   CONFIG = Debug
   DEP_FILE = CMakeFiles/AlgGen.dir/TParam.cpp.o.d
@@ -84,6 +77,20 @@ build CMakeFiles/AlgGen.dir/TKlasa.cpp.o: CXX_COMPILER__AlgGen_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/AlgGen.dir
   OBJECT_FILE_DIR = CMakeFiles/AlgGen.dir
 
+build CMakeFiles/AlgGen.dir/main.cpp.o: CXX_COMPILER__AlgGen_unscanned_Debug /Users/mjozwiak/Desktop/POIO/AlgGen/main.cpp || cmake_object_order_depends_target_AlgGen
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/AlgGen.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AlgGen.dir
+  OBJECT_FILE_DIR = CMakeFiles/AlgGen.dir
+
+build CMakeFiles/AlgGen.dir/TAlgorithm.cpp.o: CXX_COMPILER__AlgGen_unscanned_Debug /Users/mjozwiak/Desktop/POIO/AlgGen/TAlgorithm.cpp || cmake_object_order_depends_target_AlgGen
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/AlgGen.dir/TAlgorithm.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AlgGen.dir
+  OBJECT_FILE_DIR = CMakeFiles/AlgGen.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AlgGen
@@ -92,7 +99,7 @@ build CMakeFiles/AlgGen.dir/TKlasa.cpp.o: CXX_COMPILER__AlgGen_unscanned_Debug /
 #############################################
 # Link the executable AlgGen
 
-build AlgGen: CXX_EXECUTABLE_LINKER__AlgGen_Debug CMakeFiles/AlgGen.dir/main.cpp.o CMakeFiles/AlgGen.dir/TParam.cpp.o CMakeFiles/AlgGen.dir/TCandidate.cpp.o CMakeFiles/AlgGen.dir/TPopulation.cpp.o CMakeFiles/AlgGen.dir/TKlasa.cpp.o
+build AlgGen: CXX_EXECUTABLE_LINKER__AlgGen_Debug CMakeFiles/AlgGen.dir/TParam.cpp.o CMakeFiles/AlgGen.dir/TCandidate.cpp.o CMakeFiles/AlgGen.dir/TPopulation.cpp.o CMakeFiles/AlgGen.dir/TKlasa.cpp.o CMakeFiles/AlgGen.dir/main.cpp.o CMakeFiles/AlgGen.dir/TAlgorithm.cpp.o
   CONFIG = Debug
   FLAGS = -g -arch arm64
   LINK_FLAGS = -Wl,-search_paths_first -Wl,-headerpad_max_install_names
