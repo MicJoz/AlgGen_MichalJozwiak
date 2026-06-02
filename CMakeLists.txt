@@ -16,4 +16,5 @@ add_executable(AlgGen
         TAlgorithm.h
         TAlgorithm.cpp
         TCandidateZad1.h
-        TCandidateZad2.h)
+        TCandidateZad2.h
+        TCandidateZad3.h)

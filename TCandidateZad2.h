@@ -5,14 +5,32 @@
 class TCandidateZad2 : public TCandidate {
     public:
     TCandidateZad2() : TCandidate() {
-        set_gens_range();
-        rand_gens_val();
+        init_vector();
     }
     TCandidateZad2(const TCandidateZad2& original) : TCandidate(original) {}
-        private:
-            void set_gens_range();
+
+    TCandidate* create() {
+        return new TCandidateZad2();
+    }
+
+    TCandidate* create_copy() const {
+        return new TCandidateZad2( *this );
+    }
+
+    void rate() {
+        double x1 = genotype[0].get_val();
+        double x2 = genotype[1].get_val();
+
+        mark = 2 * (x1 * x2);
+    }
+
+protected:
+    void init_vector();
+
 };
-void TCandidateZad2::set_gens_range() {
-    genotype[0].set_range(0, 10, 1);
-    genotype[1].set_range(11, 20, 2);
+void TCandidateZad2::init_vector() {
+    genotype.push_back({"x1", 0, 100, 1});
+    genotype.push_back({"x2", 0, 100, 1});
+
+    gens_count = genotype.size();
 }
